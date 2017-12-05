@@ -1,7 +1,8 @@
+#!/usr/bin/ruby
 # Define File Backup (fback) method
 def fback (fname)
   fcont = File.read(fname)
-  File.new(#fcont)
+  File.new(fcont)
     end
 # Program start
 while TRUE
